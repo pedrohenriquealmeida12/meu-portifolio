@@ -2,14 +2,65 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Pedro | Portfólio</title>
+  <title>Pedro Henrique | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>Pedro Henrique</h1>
-  <p>Meu primeiro site de portfólio 🚀</p>
-  <button onclick="mostrarMensagem()">Clique aqui</button>
-<p id="msg"></p>
+  <!-- MENU -->
+  <header>
+    <nav>
+      <h2>Pedro.dev</h2>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Olá, eu sou Pedro Henrique 👋</h1>
+    <p>Desenvolvedor em formação (ADS)</p>
+    <button onclick="mostrarMensagem()">Clique para interagir</button>
+    <p id="msg"></p>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>
+      Sou estudante de Análise e Desenvolvimento de Sistemas, focado em desenvolvimento web.
+      Estou construindo projetos para evoluir minhas habilidades e conquistar minha primeira oportunidade na área.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos">
+    <h2>Projetos</h2>
+
+    <div class="card">
+      <h3>Projeto 1</h3>
+      <p>Descrição do projeto</p>
+    </div>
+
+    <div class="card">
+      <h3>Projeto 2</h3>
+      <p>Descrição do projeto</p>
+    </div>
+
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: seuemail@email.com</p>
+  </section>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
 
 </body>
 </html>
